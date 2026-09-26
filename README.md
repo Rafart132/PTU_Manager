@@ -2,6 +2,8 @@
 
 Versión independiente del cuaderno de entrenadores de PTU 1.05, en español, preparada para GitHub Pages. Conserva el diseño y el contenido del proyecto original y funciona sin cuentas, servidores propios ni inicio de sesión en ChatGPT.
 
+![Vista del cuaderno con un Pokémon inicial de prueba](docs/preview.jpg)
+
 ## Qué incluye
 
 - Ficha de entrenador de nivel 1 a 50: identidad, historia, habilidades y estadísticas.
