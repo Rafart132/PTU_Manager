@@ -1,0 +1,6 @@
+import {z} from 'zod';
+import {starters} from './starter';
+import {skills,catalog} from './ptu';
+const text=z.string().max(12000),short=z.string().max(200),skill=z.enum(skills.map(s=>s[0]) as [string,...string[]]);
+const ints=(max:number,len:number)=>z.array(z.number().int().min(0).max(max)).length(len);
+export const trainerSchema=z.object({starter:z.object({species:z.string().refine(s=>s===''||starters.some(x=>x.id===s)),nickname:short,level:z.number().int().min(1).max(10),nature:z.number().int().min(0).max(35),points:ints(20,6),ability:short,moves:z.array(short).max(7),training:z.array(short).max(2),order:short,trained:z.array(short).max(2),notes:text}).optional(),name:short,concept:short,age:short,appearance:text,story:text,notes:text,level:z.number().int().min(1).max(50),bg:short,adept:z.union([skill,z.literal('')]),novice:z.union([skill,z.literal('')]),weak:z.array(z.union([skill,z.literal('')])).length(3),ups:z.record(skill,z.number().int().min(0).max(5)),initial:ints(5,6),growth:ints(49,6),offense:ints(30,2),milestones:z.record(z.enum(['5','10','20','30','40']),z.enum(['stats','edges','features'])),picks:z.array(z.object({uid:z.string().min(1).max(100),id:z.string().refine(id=>catalog.some(e=>e.id===id)),branch:short,source:short,config:z.record(short,short),confirmed:z.array(z.string().max(3000)).max(40)})).max(160)});

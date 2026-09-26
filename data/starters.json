@@ -1,0 +1,1920 @@
+[
+  {
+    "id": "bulbasaur",
+    "name": "Bulbasaur",
+    "base": [
+      5,
+      5,
+      5,
+      7,
+      7,
+      5
+    ],
+    "types": [
+      "Grass",
+      "Poison"
+    ],
+    "abilities": [
+      "Confidence",
+      "Photosynthesis"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 3,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Leech Seed",
+        "type": "Grass"
+      },
+      {
+        "level": 9,
+        "name": "Vine Whip",
+        "type": "Grass"
+      },
+      {
+        "level": 13,
+        "name": "Poison Powder",
+        "type": "Poison"
+      },
+      {
+        "level": 13,
+        "name": "Sleep Powder",
+        "type": "Grass"
+      },
+      {
+        "level": 15,
+        "name": "Take Down",
+        "type": "Normal"
+      },
+      {
+        "level": 19,
+        "name": "Razor Leaf",
+        "type": "Grass"
+      },
+      {
+        "level": 21,
+        "name": "Sweet Scent",
+        "type": "Normal"
+      },
+      {
+        "level": 25,
+        "name": "Growth",
+        "type": "Normal"
+      },
+      {
+        "level": 27,
+        "name": "Double-Edge",
+        "type": "Normal"
+      },
+      {
+        "level": 31,
+        "name": "Worry Seed",
+        "type": "Grass"
+      },
+      {
+        "level": 33,
+        "name": "Synthesis",
+        "type": "Grass"
+      },
+      {
+        "level": 37,
+        "name": "Seed Bomb",
+        "type": "Grass"
+      }
+    ],
+    "page": 12
+  },
+  {
+    "id": "chikorita",
+    "name": "Chikorita",
+    "base": [
+      5,
+      5,
+      7,
+      5,
+      7,
+      5
+    ],
+    "types": [
+      "Grass"
+    ],
+    "abilities": [
+      "Aroma Veil",
+      "Sap Sipper"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 3,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 6,
+        "name": "Razor Leaf",
+        "type": "Grass"
+      },
+      {
+        "level": 9,
+        "name": "Poison Powder",
+        "type": "Poison"
+      },
+      {
+        "level": 12,
+        "name": "Synthesis",
+        "type": "Grass"
+      },
+      {
+        "level": 17,
+        "name": "Reflect",
+        "type": "Psychic"
+      },
+      {
+        "level": 20,
+        "name": "Magical Leaf",
+        "type": "Grass"
+      },
+      {
+        "level": 23,
+        "name": "Natural Gift",
+        "type": "Normal"
+      },
+      {
+        "level": 28,
+        "name": "Sweet Scent",
+        "type": "Normal"
+      },
+      {
+        "level": 31,
+        "name": "Light Screen",
+        "type": "Psychic"
+      },
+      {
+        "level": 34,
+        "name": "Body Slam",
+        "type": "Normal"
+      },
+      {
+        "level": 39,
+        "name": "Safeguard",
+        "type": "Normal"
+      },
+      {
+        "level": 42,
+        "name": "Aromatherapy",
+        "type": "Grass"
+      },
+      {
+        "level": 45,
+        "name": "Solar Beam",
+        "type": "Grass"
+      }
+    ],
+    "page": 15
+  },
+  {
+    "id": "treecko",
+    "name": "Treecko",
+    "base": [
+      4,
+      5,
+      4,
+      7,
+      6,
+      7
+    ],
+    "types": [
+      "Grass"
+    ],
+    "abilities": [
+      "Unburden",
+      "Leaf Guard"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Pound",
+        "type": "Normal"
+      },
+      {
+        "level": 3,
+        "name": "Leer",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Absorb",
+        "type": "Grass"
+      },
+      {
+        "level": 9,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 13,
+        "name": "Mega Drain",
+        "type": "Grass"
+      },
+      {
+        "level": 17,
+        "name": "Pursuit",
+        "type": "Dark"
+      },
+      {
+        "level": 21,
+        "name": "Giga Drain",
+        "type": "Grass"
+      },
+      {
+        "level": 25,
+        "name": "Agility",
+        "type": "Psychic"
+      },
+      {
+        "level": 29,
+        "name": "Slam",
+        "type": "Normal"
+      },
+      {
+        "level": 33,
+        "name": "Detect",
+        "type": "Fighting"
+      },
+      {
+        "level": 37,
+        "name": "Energy Ball",
+        "type": "Grass"
+      },
+      {
+        "level": 41,
+        "name": "Quick Guard",
+        "type": "Fighting"
+      },
+      {
+        "level": 45,
+        "name": "Endeavor",
+        "type": "Normal"
+      },
+      {
+        "level": 49,
+        "name": "Screech",
+        "type": "Normal"
+      }
+    ],
+    "page": 18
+  },
+  {
+    "id": "turtwig",
+    "name": "Turtwig",
+    "base": [
+      6,
+      7,
+      6,
+      5,
+      6,
+      3
+    ],
+    "types": [
+      "Grass"
+    ],
+    "abilities": [
+      "Shell Armor",
+      "Discipline"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Withdraw",
+        "type": "Water"
+      },
+      {
+        "level": 9,
+        "name": "Absorb",
+        "type": "Grass"
+      },
+      {
+        "level": 13,
+        "name": "Razor Leaf",
+        "type": "Grass"
+      },
+      {
+        "level": 17,
+        "name": "Curse",
+        "type": "Ghost"
+      },
+      {
+        "level": 21,
+        "name": "Bite",
+        "type": "Dark"
+      },
+      {
+        "level": 25,
+        "name": "Mega Drain",
+        "type": "Grass"
+      },
+      {
+        "level": 29,
+        "name": "Leech Seed",
+        "type": "Grass"
+      },
+      {
+        "level": 33,
+        "name": "Synthesis",
+        "type": "Grass"
+      },
+      {
+        "level": 37,
+        "name": "Crunch",
+        "type": "Dark"
+      },
+      {
+        "level": 41,
+        "name": "Giga Drain",
+        "type": "Grass"
+      },
+      {
+        "level": 45,
+        "name": "Leaf Storm",
+        "type": "Grass"
+      }
+    ],
+    "page": 21
+  },
+  {
+    "id": "snivy",
+    "name": "Snivy",
+    "base": [
+      5,
+      5,
+      6,
+      5,
+      6,
+      6
+    ],
+    "types": [
+      "Grass"
+    ],
+    "abilities": [
+      "Instinct",
+      "Intimidate"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 4,
+        "name": "Leer",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Vine Whip",
+        "type": "Grass"
+      },
+      {
+        "level": 10,
+        "name": "Wrap",
+        "type": "Normal"
+      },
+      {
+        "level": 13,
+        "name": "Growth",
+        "type": "Normal"
+      },
+      {
+        "level": 16,
+        "name": "Leaf Tornado",
+        "type": "Grass"
+      },
+      {
+        "level": 19,
+        "name": "Leech Seed",
+        "type": "Grass"
+      },
+      {
+        "level": 22,
+        "name": "Mega Drain",
+        "type": "Grass"
+      },
+      {
+        "level": 25,
+        "name": "Slam",
+        "type": "Normal"
+      },
+      {
+        "level": 28,
+        "name": "Leaf Blade",
+        "type": "Grass"
+      },
+      {
+        "level": 31,
+        "name": "Coil",
+        "type": "Poison"
+      },
+      {
+        "level": 34,
+        "name": "Giga Drain",
+        "type": "Grass"
+      },
+      {
+        "level": 37,
+        "name": "Wring Out",
+        "type": "Normal"
+      },
+      {
+        "level": 40,
+        "name": "Gastro Acid",
+        "type": "Poison"
+      },
+      {
+        "level": 43,
+        "name": "Leaf Storm",
+        "type": "Grass"
+      }
+    ],
+    "page": 24
+  },
+  {
+    "id": "chespin",
+    "name": "Chespin",
+    "base": [
+      6,
+      6,
+      7,
+      5,
+      5,
+      4
+    ],
+    "types": [
+      "Grass"
+    ],
+    "abilities": [
+      "Bulletproof",
+      "Battle Armor"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Vine Whip",
+        "type": "Grass"
+      },
+      {
+        "level": 8,
+        "name": "Rollout",
+        "type": "Rock"
+      },
+      {
+        "level": 15,
+        "name": "Leech Seed",
+        "type": "Grass"
+      },
+      {
+        "level": 18,
+        "name": "Pin Missile",
+        "type": "Bug"
+      },
+      {
+        "level": 21,
+        "name": "Needle Arm",
+        "type": "Grass"
+      },
+      {
+        "level": 27,
+        "name": "Take Down",
+        "type": "Normal"
+      },
+      {
+        "level": 32,
+        "name": "Seed Bomb",
+        "type": "Grass"
+      },
+      {
+        "level": 35,
+        "name": "Mud Shot",
+        "type": "Ground"
+      },
+      {
+        "level": 39,
+        "name": "Bulk Up",
+        "type": "Fighting"
+      },
+      {
+        "level": 42,
+        "name": "Body Slam",
+        "type": "Normal"
+      },
+      {
+        "level": 45,
+        "name": "Pain Split",
+        "type": "Normal"
+      },
+      {
+        "level": 48,
+        "name": "Wood Hammer",
+        "type": "Grass"
+      }
+    ],
+    "page": 27
+  },
+  {
+    "id": "charmander",
+    "name": "Charmander",
+    "base": [
+      4,
+      5,
+      4,
+      6,
+      5,
+      7
+    ],
+    "types": [
+      "Fire"
+    ],
+    "abilities": [
+      "Flame Body",
+      "Rattled"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type": "Normal"
+      },
+      {
+        "level": 3,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Ember",
+        "type": "Fire"
+      },
+      {
+        "level": 10,
+        "name": "Smokescreen",
+        "type": "Normal"
+      },
+      {
+        "level": 16,
+        "name": "Dragon Rage",
+        "type": "Dragon"
+      },
+      {
+        "level": 19,
+        "name": "Scary Face",
+        "type": "Normal"
+      },
+      {
+        "level": 25,
+        "name": "Fire Fang",
+        "type": "Fire"
+      },
+      {
+        "level": 28,
+        "name": "Flame Burst",
+        "type": "Fire"
+      },
+      {
+        "level": 34,
+        "name": "Slash",
+        "type": "Normal"
+      },
+      {
+        "level": 37,
+        "name": "Flamethrower",
+        "type": "Fire"
+      },
+      {
+        "level": 43,
+        "name": "Fire Spin",
+        "type": "Fire"
+      },
+      {
+        "level": 46,
+        "name": "Inferno",
+        "type": "Fire"
+      }
+    ],
+    "page": 30
+  },
+  {
+    "id": "cyndaquil",
+    "name": "Cyndaquil",
+    "base": [
+      4,
+      5,
+      4,
+      6,
+      5,
+      7
+    ],
+    "types": [
+      "Fire"
+    ],
+    "abilities": [
+      "Run Away",
+      "Flame Body"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Leer",
+        "type": "Normal"
+      },
+      {
+        "level": 6,
+        "name": "Smokescreen",
+        "type": "Normal"
+      },
+      {
+        "level": 10,
+        "name": "Ember",
+        "type": "Fire"
+      },
+      {
+        "level": 13,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 19,
+        "name": "Flame Wheel",
+        "type": "Fire"
+      },
+      {
+        "level": 22,
+        "name": "Defense Curl",
+        "type": "Normal"
+      },
+      {
+        "level": 28,
+        "name": "Flame Charge",
+        "type": "Fire"
+      },
+      {
+        "level": 31,
+        "name": "Swift",
+        "type": "Normal"
+      },
+      {
+        "level": 37,
+        "name": "Lava Plume",
+        "type": "Fire"
+      },
+      {
+        "level": 40,
+        "name": "Flamethrower",
+        "type": "Fire"
+      },
+      {
+        "level": 46,
+        "name": "Inferno",
+        "type": "Fire"
+      },
+      {
+        "level": 49,
+        "name": "Rollout",
+        "type": "Rock"
+      },
+      {
+        "level": 55,
+        "name": "Double-Edge",
+        "type": "Normal"
+      },
+      {
+        "level": 58,
+        "name": "Eruption",
+        "type": "Fire"
+      }
+    ],
+    "page": 33
+  },
+  {
+    "id": "torchic",
+    "name": "Torchic",
+    "base": [
+      5,
+      6,
+      4,
+      7,
+      5,
+      5
+    ],
+    "types": [
+      "Fire"
+    ],
+    "abilities": [
+      "Klutz",
+      "Flash Fire"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Ember",
+        "type": "Fire"
+      },
+      {
+        "level": 10,
+        "name": "Sand Attack",
+        "type": "Ground"
+      },
+      {
+        "level": 14,
+        "name": "Peck",
+        "type": "Flying"
+      },
+      {
+        "level": 19,
+        "name": "Fire Spin",
+        "type": "Fire"
+      },
+      {
+        "level": 23,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 28,
+        "name": "Flame Burst",
+        "type": "Fire"
+      },
+      {
+        "level": 32,
+        "name": "Focus Energy",
+        "type": "Normal"
+      },
+      {
+        "level": 37,
+        "name": "Slash",
+        "type": "Normal"
+      },
+      {
+        "level": 41,
+        "name": "Mirror Move",
+        "type": "Flying"
+      },
+      {
+        "level": 46,
+        "name": "Flamethrower",
+        "type": "Fire"
+      }
+    ],
+    "page": 36
+  },
+  {
+    "id": "chimchar",
+    "name": "Chimchar",
+    "base": [
+      4,
+      6,
+      4,
+      6,
+      4,
+      6
+    ],
+    "types": [
+      "Fire"
+    ],
+    "abilities": [
+      "Celebrate",
+      "Flash Fire"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Leer",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Ember",
+        "type": "Fire"
+      },
+      {
+        "level": 9,
+        "name": "Taunt",
+        "type": "Dark"
+      },
+      {
+        "level": 15,
+        "name": "Fury Swipes",
+        "type": "Normal"
+      },
+      {
+        "level": 17,
+        "name": "Flame Wheel",
+        "type": "Fire"
+      },
+      {
+        "level": 23,
+        "name": "Nasty Plot",
+        "type": "Dark"
+      },
+      {
+        "level": 25,
+        "name": "Torment",
+        "type": "Dark"
+      },
+      {
+        "level": 31,
+        "name": "Facade",
+        "type": "Normal"
+      },
+      {
+        "level": 33,
+        "name": "Fire Spin",
+        "type": "Fire"
+      },
+      {
+        "level": 39,
+        "name": "Acrobatics",
+        "type": "Flying"
+      },
+      {
+        "level": 41,
+        "name": "Slack Off",
+        "type": "Fire"
+      },
+      {
+        "level": 47,
+        "name": "Flamethrower",
+        "type": "Fire"
+      }
+    ],
+    "page": 39
+  },
+  {
+    "id": "tepig",
+    "name": "Tepig",
+    "base": [
+      7,
+      6,
+      5,
+      5,
+      5,
+      5
+    ],
+    "types": [
+      "Fire"
+    ],
+    "abilities": [
+      "Gluttony",
+      "Thick Fat"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 3,
+        "name": "Tail Whip",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Ember",
+        "type": "Fire"
+      },
+      {
+        "level": 9,
+        "name": "Odor Sleuth",
+        "type": "Normal"
+      },
+      {
+        "level": 13,
+        "name": "Defense Curl",
+        "type": "Normal"
+      },
+      {
+        "level": 15,
+        "name": "Flame Charge",
+        "type": "Fire"
+      },
+      {
+        "level": 19,
+        "name": "Smog",
+        "type": "Poison"
+      },
+      {
+        "level": 21,
+        "name": "Rollout",
+        "type": "Rock"
+      },
+      {
+        "level": 25,
+        "name": "Take Down",
+        "type": "Normal"
+      },
+      {
+        "level": 27,
+        "name": "Heat Crash",
+        "type": "Fire"
+      },
+      {
+        "level": 31,
+        "name": "Assurance",
+        "type": "Dark"
+      },
+      {
+        "level": 33,
+        "name": "Flamethrower",
+        "type": "Fire"
+      },
+      {
+        "level": 37,
+        "name": "Head Smash",
+        "type": "Rock"
+      },
+      {
+        "level": 39,
+        "name": "Roar",
+        "type": "Normal"
+      },
+      {
+        "level": 43,
+        "name": "Flare Blitz",
+        "type": "Fire"
+      }
+    ],
+    "page": 42
+  },
+  {
+    "id": "fennekin",
+    "name": "Fennekin",
+    "base": [
+      4,
+      5,
+      4,
+      6,
+      6,
+      6
+    ],
+    "types": [
+      "Fire"
+    ],
+    "abilities": [
+      "Forewarn",
+      "Omen"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Tail Whip",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Ember",
+        "type": "Fire"
+      },
+      {
+        "level": 11,
+        "name": "Howl",
+        "type": "Normal"
+      },
+      {
+        "level": 17,
+        "name": "Psybeam",
+        "type": "Psychic"
+      },
+      {
+        "level": 20,
+        "name": "Fire Spin",
+        "type": "Fire"
+      },
+      {
+        "level": 25,
+        "name": "Lucky Chant",
+        "type": "Normal"
+      },
+      {
+        "level": 31,
+        "name": "Psyshock",
+        "type": "Psychic"
+      },
+      {
+        "level": 34,
+        "name": "Flamethrower",
+        "type": "Fire"
+      },
+      {
+        "level": 38,
+        "name": "Will-O-Wisp",
+        "type": "Fire"
+      },
+      {
+        "level": 41,
+        "name": "Psychic",
+        "type": "Psychic"
+      },
+      {
+        "level": 43,
+        "name": "Sunny Day",
+        "type": "Fire"
+      },
+      {
+        "level": 46,
+        "name": "Magic Room",
+        "type": "Psychic"
+      },
+      {
+        "level": 48,
+        "name": "Fire Blast",
+        "type": "Fire"
+      }
+    ],
+    "page": 45
+  },
+  {
+    "id": "squirtle",
+    "name": "Squirtle",
+    "base": [
+      4,
+      5,
+      7,
+      5,
+      6,
+      4
+    ],
+    "types": [
+      "Water"
+    ],
+    "abilities": [
+      "Shell Armor",
+      "Overcoat"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 4,
+        "name": "Tail Whip",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Bubble",
+        "type": "Water"
+      },
+      {
+        "level": 10,
+        "name": "Withdraw",
+        "type": "Water"
+      },
+      {
+        "level": 13,
+        "name": "Water Gun",
+        "type": "Water"
+      },
+      {
+        "level": 16,
+        "name": "Bite",
+        "type": "Dark"
+      },
+      {
+        "level": 19,
+        "name": "Rapid Spin",
+        "type": "Normal"
+      },
+      {
+        "level": 22,
+        "name": "Protect",
+        "type": "Normal"
+      },
+      {
+        "level": 25,
+        "name": "Water Pulse",
+        "type": "Water"
+      },
+      {
+        "level": 28,
+        "name": "Aqua Tail",
+        "type": "Water"
+      },
+      {
+        "level": 31,
+        "name": "Skull Bash",
+        "type": "Normal"
+      },
+      {
+        "level": 34,
+        "name": "Iron Defense",
+        "type": "Steel"
+      },
+      {
+        "level": 37,
+        "name": "Rain Dance",
+        "type": "Water"
+      },
+      {
+        "level": 40,
+        "name": "Hydro Pump",
+        "type": "Water"
+      }
+    ],
+    "page": 48
+  },
+  {
+    "id": "totodile",
+    "name": "Totodile",
+    "base": [
+      5,
+      7,
+      6,
+      4,
+      5,
+      4
+    ],
+    "types": [
+      "Water"
+    ],
+    "abilities": [
+      "Frisk",
+      "Hyper Cutter"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Leer",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Scratch",
+        "type": "Normal"
+      },
+      {
+        "level": 6,
+        "name": "Water Gun",
+        "type": "Water"
+      },
+      {
+        "level": 8,
+        "name": "Rage",
+        "type": "Normal"
+      },
+      {
+        "level": 13,
+        "name": "Bite",
+        "type": "Dark"
+      },
+      {
+        "level": 15,
+        "name": "Scary Face",
+        "type": "Normal"
+      },
+      {
+        "level": 20,
+        "name": "Ice Fang",
+        "type": "Ice"
+      },
+      {
+        "level": 22,
+        "name": "Flail",
+        "type": "Normal"
+      },
+      {
+        "level": 27,
+        "name": "Crunch",
+        "type": "Normal"
+      },
+      {
+        "level": 29,
+        "name": "Chip Away",
+        "type": "Dark"
+      },
+      {
+        "level": 34,
+        "name": "Slash",
+        "type": "Normal"
+      },
+      {
+        "level": 36,
+        "name": "Screech",
+        "type": "Normal"
+      },
+      {
+        "level": 41,
+        "name": "Thrash",
+        "type": "Normal"
+      },
+      {
+        "level": 43,
+        "name": "Aqua Tail",
+        "type": "Water"
+      },
+      {
+        "level": 48,
+        "name": "Superpower",
+        "type": "Fighting"
+      },
+      {
+        "level": 50,
+        "name": "Hydro Pump",
+        "type": "Water"
+      }
+    ],
+    "page": 51
+  },
+  {
+    "id": "mudkip",
+    "name": "Mudkip",
+    "base": [
+      5,
+      7,
+      5,
+      5,
+      5,
+      4
+    ],
+    "types": [
+      "Water"
+    ],
+    "abilities": [
+      "Damp",
+      "Dry Skin"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 4,
+        "name": "Water Gun",
+        "type": "Water"
+      },
+      {
+        "level": 9,
+        "name": "Mud-Slap",
+        "type": "Ground"
+      },
+      {
+        "level": 12,
+        "name": "Foresight",
+        "type": "Normal"
+      },
+      {
+        "level": 17,
+        "name": "Bide",
+        "type": "Normal"
+      },
+      {
+        "level": 20,
+        "name": "Mud Sport",
+        "type": "Ground"
+      },
+      {
+        "level": 25,
+        "name": "Rock Throw",
+        "type": "Rock"
+      },
+      {
+        "level": 28,
+        "name": "Protect",
+        "type": "Normal"
+      },
+      {
+        "level": 33,
+        "name": "Whirlpool",
+        "type": "Water"
+      },
+      {
+        "level": 36,
+        "name": "Take Down",
+        "type": "Normal"
+      },
+      {
+        "level": 41,
+        "name": "Hydro Pump",
+        "type": "Water"
+      },
+      {
+        "level": 44,
+        "name": "Endeavor",
+        "type": "Normal"
+      }
+    ],
+    "page": 54
+  },
+  {
+    "id": "piplup",
+    "name": "Piplup",
+    "base": [
+      5,
+      5,
+      5,
+      6,
+      6,
+      4
+    ],
+    "types": [
+      "Water"
+    ],
+    "abilities": [
+      "Klutz",
+      "Swift Swim"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Pound",
+        "type": "Normal"
+      },
+      {
+        "level": 4,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 8,
+        "name": "Bubble",
+        "type": "Water"
+      },
+      {
+        "level": 11,
+        "name": "Water Sport",
+        "type": "Water"
+      },
+      {
+        "level": 15,
+        "name": "Peck",
+        "type": "Flying"
+      },
+      {
+        "level": 19,
+        "name": "Bubble Beam",
+        "type": "Water"
+      },
+      {
+        "level": 24,
+        "name": "Bide",
+        "type": "Normal"
+      },
+      {
+        "level": 28,
+        "name": "Fury Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 33,
+        "name": "Brine",
+        "type": "Water"
+      },
+      {
+        "level": 37,
+        "name": "Whirlpool",
+        "type": "Water"
+      },
+      {
+        "level": 42,
+        "name": "Mist",
+        "type": "Ice"
+      },
+      {
+        "level": 46,
+        "name": "Drill Peck",
+        "type": "Flying"
+      },
+      {
+        "level": 51,
+        "name": "Hydro Pump",
+        "type": "Water"
+      }
+    ],
+    "page": 57
+  },
+  {
+    "id": "oshawott",
+    "name": "Oshawott",
+    "base": [
+      6,
+      6,
+      5,
+      6,
+      5,
+      5
+    ],
+    "types": [
+      "Water"
+    ],
+    "abilities": [
+      "Hyper Cutter",
+      "Inner Focus"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Tail Whip",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Water Gun",
+        "type": "Water"
+      },
+      {
+        "level": 11,
+        "name": "Water Sport",
+        "type": "Water"
+      },
+      {
+        "level": 13,
+        "name": "Focus Energy",
+        "type": "Normal"
+      },
+      {
+        "level": 17,
+        "name": "Razor Shell",
+        "type": "Water"
+      },
+      {
+        "level": 19,
+        "name": "Fury Cutter",
+        "type": "Bug"
+      },
+      {
+        "level": 23,
+        "name": "Water Pulse",
+        "type": "Water"
+      },
+      {
+        "level": 25,
+        "name": "Revenge",
+        "type": "Fighting"
+      },
+      {
+        "level": 29,
+        "name": "Aqua Jet",
+        "type": "Water"
+      },
+      {
+        "level": 31,
+        "name": "Encore",
+        "type": "Normal"
+      },
+      {
+        "level": 35,
+        "name": "Aqua Tail",
+        "type": "Water"
+      },
+      {
+        "level": 37,
+        "name": "Retaliate",
+        "type": "Normal"
+      },
+      {
+        "level": 41,
+        "name": "Swords Dance",
+        "type": "Normal"
+      },
+      {
+        "level": 43,
+        "name": "Hydro Pump",
+        "type": "Water"
+      }
+    ],
+    "page": 60
+  },
+  {
+    "id": "froakie",
+    "name": "Froakie",
+    "base": [
+      4,
+      6,
+      4,
+      6,
+      4,
+      7
+    ],
+    "types": [
+      "Water"
+    ],
+    "abilities": [
+      "Mud Dweller",
+      "Wash Away"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Pound",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Bubble",
+        "type": "Water"
+      },
+      {
+        "level": 8,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 10,
+        "name": "Lick",
+        "type": "Ghost"
+      },
+      {
+        "level": 14,
+        "name": "Water Pulse",
+        "type": "Water"
+      },
+      {
+        "level": 18,
+        "name": "Smokescreen",
+        "type": "Normal"
+      },
+      {
+        "level": 21,
+        "name": "Round",
+        "type": "Normal"
+      },
+      {
+        "level": 25,
+        "name": "Fling",
+        "type": "Dark"
+      },
+      {
+        "level": 29,
+        "name": "Smack Down",
+        "type": "Rock"
+      },
+      {
+        "level": 35,
+        "name": "Substitute",
+        "type": "Normal"
+      },
+      {
+        "level": 39,
+        "name": "Bounce",
+        "type": "Flying"
+      },
+      {
+        "level": 43,
+        "name": "Double Team",
+        "type": "Normal"
+      },
+      {
+        "level": 48,
+        "name": "Hydro Pump",
+        "type": "Water"
+      }
+    ],
+    "page": 63
+  },
+  {
+    "id": "pikachu",
+    "name": "Pikachu",
+    "base": [
+      4,
+      6,
+      4,
+      5,
+      5,
+      9
+    ],
+    "types": [
+      "Electric"
+    ],
+    "abilities": [
+      "Static",
+      "Cute Charm"
+    ],
+    "moves": [
+      {
+        "level": 5,
+        "name": "Tail Whip",
+        "type": "Normal"
+      },
+      {
+        "level": 7,
+        "name": "Play Nice",
+        "type": "Normal"
+      },
+      {
+        "level": 10,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 13,
+        "name": "Electro Ball",
+        "type": "Electric"
+      },
+      {
+        "level": 18,
+        "name": "Thunder Wave",
+        "type": "Electric"
+      },
+      {
+        "level": 21,
+        "name": "Feint",
+        "type": "Normal"
+      },
+      {
+        "level": 23,
+        "name": "Double Team",
+        "type": "Normal"
+      },
+      {
+        "level": 26,
+        "name": "Spark",
+        "type": "Electric"
+      },
+      {
+        "level": 29,
+        "name": "Nuzzle",
+        "type": "Electric"
+      },
+      {
+        "level": 34,
+        "name": "Discharge",
+        "type": "Electric"
+      },
+      {
+        "level": 37,
+        "name": "Slam",
+        "type": "Normal"
+      },
+      {
+        "level": 42,
+        "name": "Thunderbolt",
+        "type": "Electric"
+      },
+      {
+        "level": 45,
+        "name": "Agility",
+        "type": "Psychic"
+      },
+      {
+        "level": 50,
+        "name": "Wild Charge",
+        "type": "Electric"
+      },
+      {
+        "level": 53,
+        "name": "Light Screen",
+        "type": "Psychic"
+      },
+      {
+        "level": 58,
+        "name": "Thunder",
+        "type": "Electric"
+      }
+    ],
+    "page": 145
+  },
+  {
+    "id": "riolu",
+    "name": "Riolu",
+    "base": [
+      4,
+      7,
+      4,
+      4,
+      4,
+      6
+    ],
+    "types": [
+      "Fighting"
+    ],
+    "abilities": [
+      "Steadfast",
+      "Inner Focus"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Endure",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Foresight",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 6,
+        "name": "Counter",
+        "type": "Fighting"
+      },
+      {
+        "level": 11,
+        "name": "Feint",
+        "type": "Normal"
+      },
+      {
+        "level": 15,
+        "name": "Force Palm",
+        "type": "Fighting"
+      },
+      {
+        "level": 19,
+        "name": "Copycat",
+        "type": "Normal"
+      },
+      {
+        "level": 24,
+        "name": "Screech",
+        "type": "Normal"
+      },
+      {
+        "level": 29,
+        "name": "Reversal",
+        "type": "Fighting"
+      },
+      {
+        "level": 47,
+        "name": "Nasty Plot",
+        "type": "Dark"
+      },
+      {
+        "level": 55,
+        "name": "Final Gambit",
+        "type": "Fighting"
+      }
+    ],
+    "page": 524
+  },
+  {
+    "id": "eevee",
+    "name": "Eevee",
+    "base": [
+      6,
+      6,
+      5,
+      5,
+      7,
+      6
+    ],
+    "types": [
+      "Normal"
+    ],
+    "abilities": [
+      "Run Away",
+      "Sprint"
+    ],
+    "moves": [
+      {
+        "level": 1,
+        "name": "Helping Hand",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Growl",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Tackle",
+        "type": "Normal"
+      },
+      {
+        "level": 1,
+        "name": "Tail Whip",
+        "type": "Normal"
+      },
+      {
+        "level": 5,
+        "name": "Sand Attack",
+        "type": "Ground"
+      },
+      {
+        "level": 9,
+        "name": "Baby-Doll Eyes",
+        "type": "Fairy"
+      },
+      {
+        "level": 13,
+        "name": "Quick Attack",
+        "type": "Normal"
+      },
+      {
+        "level": 17,
+        "name": "Bite",
+        "type": "Dark"
+      },
+      {
+        "level": 21,
+        "name": "Covet",
+        "type": "Normal"
+      },
+      {
+        "level": 25,
+        "name": "Take Down",
+        "type": "Normal"
+      },
+      {
+        "level": 29,
+        "name": "Charm",
+        "type": "Fairy"
+      },
+      {
+        "level": 33,
+        "name": "Baton Pass",
+        "type": "Normal"
+      },
+      {
+        "level": 37,
+        "name": "Double-Edge",
+        "type": "Normal"
+      },
+      {
+        "level": 41,
+        "name": "Last Resort",
+        "type": "Normal"
+      },
+      {
+        "level": 45,
+        "name": "Trump Card",
+        "type": "Normal"
+      }
+    ],
+    "page": 631
+  }
+]

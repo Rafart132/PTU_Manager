@@ -1,0 +1,22 @@
+import raw from '@/data/starters.json';
+import {byId,has,stats,type Trainer} from './ptu';
+export const starters=raw;
+export type Starter={species:string;nickname:string;level:number;nature:number;points:number[];ability:string;moves:string[];training:string[];order:string;trained:string[];notes:string};
+export const freshStarter=():Starter=>({species:'',nickname:'',level:5,nature:30,points:[0,0,0,0,0,0],ability:'',moves:[],training:[],order:'',trained:[],notes:''});
+const names=['Cuddly','Distracted','Proud','Decisive','Patient','Desperate','Lonely','Adamant','Naughty','Brave','Stark','Bold','Impish','Lax','Relaxed','Curious','Modest','Mild','Rash','Quiet','Dreamy','Calm','Gentle','Careful','Sassy','Skittish','Timid','Hasty','Jolly','Naive','Composed','Hardy','Docile','Bashful','Quirky','Serious'];
+export const natures=names.map((name,n)=>({name,up:n<30?Math.floor(n/5):n-30,down:n<30?Array.from({length:6},(_,i)=>i).filter(i=>i!==Math.floor(n/5))[n%5]:n-30}));
+export function starterResult(t:Trainer,p:Starter){const species=starters.find(s=>s.id===p.species);if(!species)return null;
+ const nature=natures[p.nature]||natures[30];const base=species.base.map((v,i)=>Math.max(1,v+(nature.up===nature.down?0:(nature.up===i?(i===0?1:2):0)-(nature.down===i?(i===0?1:2):0))));
+ const bonus=stats.map(s=>t.picks.filter(q=>byId(q.id)?.name==='Stat Ace'&&q.branch===s).length*(1+Math.floor(p.level/10)));
+ const natural=base.map((v,i)=>v+p.points[i]),permanent=natural.map((v,i)=>v+bonus[i]);
+ const exempt=stats.map((s,i)=>(i===0&&has(t,'Enduring Soul'))||bonus[i]>0);
+ const trained=has(t,'Ace Trainer')?p.trained.filter(s=>stats.slice(1).includes(s)).slice(0,has(t,'Champ in the Making')?2:1):[];
+ const effective=permanent.map((v,i)=>trained.includes(stats[i])?Math.floor(v*1.2):v);
+ const owned=t.picks.map(q=>q.id);const training=p.training.filter(id=>owned.includes(id)).slice(0,has(t,'Elite Trainer')?2:1);const active=[...training,...(owned.includes(p.order)?[p.order]:[])];
+ const times=(id:string)=>active.filter(s=>s===id).length;
+ const errors:string[]=[];if(p.points.reduce((a,b)=>a+b,0)!==p.level+10)errors.push(`Reparte ${p.level+10} puntos: llevas ${p.points.reduce((a,b)=>a+b,0)}.`);
+ for(let i=0;i<6;i++)for(let j=0;j<6;j++)if(!exempt[i]&&!exempt[j]&&base[i]+bonus[i]>base[j]+bonus[j]&&permanent[i]<=permanent[j])errors.push(`${stats[i]} debe superar a ${stats[j]} por la relación base.`);
+ if(!species.abilities.includes(p.ability))errors.push('Elige una habilidad básica con el máster.');
+ const moveLimit=has(t,'Guidance')?7:6;if(p.moves.length>moveLimit)errors.push(`Máximo ${moveLimit} movimientos.`);if(p.moves.some(m=>!species.moves.some(x=>x.name===m&&x.level<=p.level)))errors.push('Hay movimientos que superan el nivel actual.');
+ return {species,base,bonus,natural,permanent,effective,errors,trained,training,moveLimit,hp:p.level+permanent[0]*3+10,naturalHP:p.level+natural[0]*3+10,initiative:effective[5]+4*times('agility-training'),movement:times('agility-training'),accuracy:times('focused-training'),skill:2*times('focused-training'),saves:2*times('inspired-training')+(has(t,'Awareness')?2:0),critical:times('brutal-training'),evasion:[2,4,5].map(i=>Math.min(6,Math.floor(permanent[i]/5))+times('inspired-training'))};
+}
