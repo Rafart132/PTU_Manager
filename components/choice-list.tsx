@@ -5,11 +5,13 @@ import {Button} from '@/components/ui/button';
 import {byId,skillLabel,translatedReq,type Trainer,type Pick} from '@/lib/ptu';
 import {choiceChecks} from '@/lib/choices';
 
-export function ChoiceList({trainer,onEdit,onRemove,onSource,compact=false}:{
-  trainer:Trainer;onEdit:(p:Pick)=>void;onRemove:(p:Pick)=>void;onSource:(page:number)=>void;compact?:boolean;
+export function ChoiceList({trainer,onEdit,onRemove,onSource,compact=false,filterId}:{
+  trainer:Trainer;onEdit:(p:Pick)=>void;onRemove:(p:Pick)=>void;onSource:(page:number)=>void;compact?:boolean;filterId?:string;
 }) {
-  if(!trainer.picks.length)return <div className="empty">Tus clases, ventajas y rasgos aparecerán aquí. Podrás editarlos o quitarlos cuando quieras.</div>;
-  return <div className={'choice-list '+(compact?'compact':'')}>{trainer.picks.map(p=>{
+  const picks=trainer.picks.filter(p=>!filterId||p.id===filterId);
+  if(filterId&&!picks.length)return null;
+  if(!picks.length)return <div className="empty">Tus clases, ventajas y rasgos aparecerán aquí. Podrás editarlos o quitarlos cuando quieras.</div>;
+  return <div className={'choice-list '+(compact?'compact':'')}>{picks.map(p=>{
     const e=byId(p.id);
     const errors=[...new Set(choiceChecks(trainer,p).filter(c=>!c.ok).map(c=>c.text))];
     return <article className={'selected-card '+(errors.length?'needs-review':'')} key={p.uid}>
