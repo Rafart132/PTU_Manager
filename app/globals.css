@@ -156,3 +156,44 @@ body{font-family:system-ui,sans-serif;font-size:16px;line-height:1.55}.masthead{
 .reference-card .hint{font-size:13px}
 @media(max-width:700px){.reference-grid{grid-template-columns:1fr}.planner>.section-title{flex-wrap:wrap}.planner-filters [data-slot=tabs-trigger]{font-size:12px}.selected-card .section-title{display:block}.selected-card .choice-actions{margin-top:12px}.main-tabs{gap:3px}}
 @media print{.choice-actions,.undo-banner,.planner-filters{display:none!important}}
+
+/* Night palette: surfaces, controls, reference text and validation states. */
+.dark {
+  --background:#101923; --foreground:#e2edf3;
+  --card:#182632; --card-foreground:#e2edf3;
+  --popover:#20313f; --popover-foreground:#e2edf3;
+  --primary:#78d3ce; --primary-foreground:#102326;
+  --secondary:#263b49; --secondary-foreground:#e2edf3;
+  --muted:#20313f; --muted-foreground:#aec3cf;
+  --accent:#304b5b; --accent-foreground:#f0f7fb;
+  --border:#405868; --input:#496372; --ring:#78d3ce;
+  --destructive:#ff928b;
+}
+.dark .panel,.dark .option-card,.dark .main-tabs [data-state=active]{background:var(--card);border-color:var(--border);color:var(--foreground)}
+.dark .sheet,.dark .class-intro{background:#203743;border-color:#48616e;color:var(--foreground)}
+.dark .hint,.dark .sheet p,.dark .panel>p:not(.eyebrow),.dark .eyebrow,.dark .local-storage-note,.dark .docname span,.dark .original-name,.dark .option-foot>span,.dark .selected-card small,.dark .skill-row small,.dark .future-head p:not(.eyebrow),.dark footer,.dark .empty{color:#b4c9d5}
+.dark .kind-label,.dark .status{color:#b4c9d5}
+.dark .stat-preview strong,.dark .total-cell,.dark .six-stats strong,.dark summary{color:#8ce1da}
+.dark .status.ready,.dark .requirement.met,.dark .owned-label{color:#97dfb6}
+.dark .status.locked,.dark .requirement.unmet,.dark .issue-list,.dark .impact-list{color:#f1c08e}
+.dark .counter,.dark .grant-box,.dark .undo-banner{background:#213d35;color:#b4efd0;border-color:#517763}
+.dark .grant-box strong{color:#b4efd0}
+.dark .grant-box span,.dark .class-tags span{background:#294b43;color:#d2f4e4}
+.dark .original-text,.dark .source-dialog pre,.dark .usage,.dark .six-stats>div,.dark .point-summary span,.dark .config-chip{background:#223644;color:#d9e8ef}
+.dark .notice,.dark .edit-note{background:#243e4a;color:#c6e6ef;border-color:#72bcc6}
+.dark .choice-warning{background:#423327;color:#f6d2a5;border-color:#c7965d}
+.dark .remove-choice{color:#ffb0a3;border-color:#9b655d}
+.dark .point-summary,.dark .step-tabs [data-slot=tabs-trigger]{color:#c0d5df}
+.dark .step-tabs [data-state=active],.dark .planner-filters [data-state=active]{background:#2b4c58!important;color:#d7f4f3!important}
+.dark .planner-filters [data-slot=tabs-trigger]{background:#20313f;border-color:var(--border);color:var(--foreground)}
+.dark .planner-requirements{background:#203c35;color:#c2ead6}
+.dark .planner-requirements.context{background:#423327;color:#f6d2a5}
+.dark .main-tabs,.dark .skill-row,.dark .selected-card,.dark .derived-grid>div,.dark .requirement,.dark .validation,.dark footer{border-color:var(--border)}
+.dark .budget-progress{background:#415e6b}
+@media print {
+  .dark {--background:white;--foreground:#183344}
+  .dark .panel,.dark .sheet,.dark .selected-card,.dark .six-stats>div{background:white!important;color:#183344!important}
+  .dark main p,.dark main small,.dark main strong,.dark main span{color:#183344!important}
+}
+.dark .reference-card p,.dark .reference-card dd{color:#b4c9d5}
+.dark .reference-card dt{color:#e2edf3}
