@@ -1,0 +1,20 @@
+'use client';
+
+import {BookOpen} from 'lucide-react';
+import {Button} from '@/components/ui/button';
+
+export function QuickReference({onSource}:{onSource:(page:number)=>void}) {
+  const source=(page:number)=><Button variant="ghost" size="sm" onClick={()=>onSource(page)}><BookOpen size={14}/>Core · p. {page}</Button>;
+  return <section>
+    <p className="eyebrow">CONSULTA DURANTE LA PARTIDA</p><h2>Reglas rápidas · PTU 1.05</h2>
+    <p className="hint">Resumen de las reglas generales. Los movimientos, rasgos y habilidades pueden introducir excepciones; abre la página del manual para comprobarlas.</p>
+    <div className="reference-grid">
+      <article className="panel reference-card"><h3>Orden de los turnos</h3><p>La iniciativa normalmente es la estadística de Velocidad.</p><dl><dt>Combate de Liga</dt><dd>Los entrenadores declaran de menor a mayor iniciativa y resuelven de mayor a menor. Después actúan todos los Pokémon de mayor a menor.</dd><dt>Combate con contacto o encuentro salvaje</dt><dd>Entrenadores y Pokémon comparten el orden de iniciativa, de mayor a menor.</dd></dl>{source(227)}</article>
+      <article className="panel reference-card"><h3>Acciones en tu turno</h3><p>Cada participante dispone de una acción <strong>Standard</strong>, una <strong>Shift</strong> y una <strong>Swift</strong>, en el orden que elija.</p><dl><dt>Standard · estándar</dt><dd>Por ejemplo, usar un movimiento, lanzar una Poké Ball o recuperar y usar un objeto.</dd><dt>Shift · desplazamiento</dt><dd>Normalmente permite moverse según una capacidad de movimiento.</dd><dt>Swift · rápida</dt><dd>Se usa cuando un efecto lo indica.</dd></dl><p className="hint">Puedes cambiar la Standard por otra Swift o Shift; esa Shift extra no permite moverte otra vez si ya usaste la normal para moverte. Una Full Action consume Standard y Shift.</p>{source(227)}</article>
+      <article className="panel reference-card"><h3>Dar órdenes a tu Pokémon</h3><p>Decides las acciones de tu Pokémon cuando llega su iniciativa. No tienes que declararlas durante el turno del entrenador.</p><p>La regla general permite comandar un Pokémon por ronda. Algunos rasgos y formatos de combate permiten más.</p>{source(228)}</article>
+      <article className="panel reference-card"><h3>Cambiar de Pokémon</h3><p>Un cambio completo consume una acción <strong>Standard</strong>; sustituir a uno debilitado consume una <strong>Shift</strong>. Retirar o sacar uno por separado también usa Shift.</p><p>En Liga, el Pokémon que entra por un cambio normal no actúa esa ronda. Hay excepciones para cambios forzados y sustituciones de debilitados. En otros combates puede actuar si queda disponible el turno de Pokémon.</p><p className="hint">El rayo de retorno alcanza 8 metros. En Liga, normalmente se considera que estás dentro del alcance.</p>{source(229)}</article>
+      <article className="panel reference-card"><h3>Estadísticas y puntos de vida</h3><dl><dt>PV del entrenador</dt><dd>Nivel × 2 + HP × 3 + 10.</dd><dt>PV del Pokémon</dt><dd>Nivel + HP × 3 + 10.</dd><dt>Puntos del Pokémon</dt><dd>Aplica la naturaleza a las estadísticas base y reparte nivel + 10 puntos. Conserva el orden entre bases distintas; las que empiezan empatadas pueden dejar de estarlo.</dd></dl><div className="choice-actions">{source(16)}{source(198)}</div></article>
+      <article className="panel reference-card"><h3>Subir de nivel</h3><dl><dt>Entrenador · máximo 50</dt><dd>Después de la creación, cada nivel da un punto de estadística; los niveles impares dan un rasgo y los pares una ventaja. Revisa además las recompensas de hitos.</dd><dt>Pokémon · máximo 100</dt><dd>Gana un punto de estadística y comprueba movimientos y evolución. A nivel 20 obtiene una segunda habilidad y a nivel 40 una tercera.</dd><dt>Movimientos del Pokémon</dt><dd>Máximo seis; normalmente hasta tres de MT/tutor que no pertenezcan a su lista natural.</dd></dl><div className="choice-actions">{source(19)}{source(200)}{source(202)}</div></article>
+    </div>
+  </section>;
+}

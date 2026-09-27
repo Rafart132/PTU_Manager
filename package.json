@@ -13,7 +13,7 @@
     "lint": "eslint . --ignore-pattern dist --ignore-pattern .next",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
-    "test": "node tests/rules.cjs && node tests/starter.cjs && node tests/storage.cjs"
+    "test": "node tests/rules.cjs && node tests/choices.cjs && node tests/starter.cjs && node tests/storage.cjs"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",
